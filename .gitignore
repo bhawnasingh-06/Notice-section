@@ -1,0 +1,5 @@
+node_modules/
+build/
+
+# removed package-lock.json
+package-lock.json

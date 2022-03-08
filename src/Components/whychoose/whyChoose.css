@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Poppins&family=Rubik:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.why-choose {
+  width: 100vw;
+  height: auto;
+  grid-gap: 20px;
+  display: -ms-grid;
+  display: grid;
+  padding: 50px 100px;
+}
+
+.why-choose .why-choose-heading {
+  color: #124581;
+  font-family: "Dongle", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.why-choose-para {
+  font-size: 18px;
+  color: #777474;
+}
+
+@media screen and (max-width: 600px) {
+  .why-choose {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=whyChoose.css.map */

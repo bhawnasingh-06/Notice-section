@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Poppins&family=Rubik:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.why-choose {
+  width: 100vw;
+  height: auto;
+  grid-gap: 20px;
+  display: grid;
+  padding: 50px 100px;
+  .why-choose-heading {
+    color: #124581;
+    font-family: "Dongle", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+  &-para {
+    font-size: 18px;
+    color: #777474;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .why-choose {
+    display: flex;
+    flex-direction: column;
+  }
+}
